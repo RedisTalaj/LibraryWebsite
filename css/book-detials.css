@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(235, 233, 233);
+    
 }
 book-main-content{
     display: flex;
