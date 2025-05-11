@@ -1,0 +1,116 @@
+
+/*FOOTER*/
+main-footer{
+    display: block;
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    background-attachment: fixed;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px 80px;
+}
+
+.quick-links, 
+.legal-links, 
+.my-account, 
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.quick-links h2, 
+.legal-links h2, 
+.my-account h2, 
+.social-links h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Poynter, Georgia, serif;
+    font-style: italic;
+    font-size: 1.755rem;
+    color: white;
+}
+
+.quick-links a, 
+.legal-links a, 
+.my-account a, 
+.social-links a{
+    text-decoration: none;
+    color: rgb(148, 147, 147);
+}
+
+.quick-links a:hover, 
+.legal-links a:hover, 
+.my-account a:hover, 
+.social-links a:hover{
+    color: white;
+}
+
+.about-us{
+    padding:30px 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-us p{
+    border-top: 1px solid rgb(206, 204, 204);
+    text-align: center;
+    padding-top: 20px;
+    font-family: Poynter, Georgia, serif;
+    font-style: italic;
+    font-size: 1.255rem;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    font-family: Poynter, Georgia, serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.copyright p{
+    margin: 0;
+    color: white;
+}
+
+main-footer .first-logo{
+    padding-left: 90px;
+    padding-top: 260px;
+    position: absolute;
+    /* bottom: 10px; */
+    left: 20px;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+}
+
+main-footer .first-logo-new{
+    padding-left: 90px;
+    padding-top: 260px;
+    position: absolute;
+    /* bottom: 10px; */
+    bottom: 215px;
+    left: 20px;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+}
+
+main-footer .reading-book{
+    position: absolute;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+}

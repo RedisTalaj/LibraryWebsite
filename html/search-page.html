@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/bookIcon.png" type="image/png" sizes="64x64">
+    <title>Teka Library</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/search-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=FONT_NAME:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <navbar>
+        <div class="image">
+            <img src="../images/bookIcon.png" alt="">
+        </div>
+        <div class="links">
+            <a href="#third-content" class="link">Books</a>
+            <a href="" class="link">About Us</a>
+            <a href="" class="link">Profile</a>
+            <a href="" class="link">Order History</a>
+            <a href="" class="link">Contact</a>
+        </div>
+        <div class="log">
+            <button class="signin">Sign in</button>
+            <button class="register">Register</button>
+        </div>
+    </navbar>
+    <main-content>
+        <left-content>
+            <div class="keyword">
+                <p>Keywords</p>
+                <div class="keyword-details">
+                    <p>Spring X</p>
+                    <p>Smart X</p>
+                    <p>Modern X</p>
+                </div>
+            </div>
+            <div class="new-label">
+                <div class="first-label">
+                    <input type="checkbox" checked>
+                    <div>
+                        <p>Label</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+                <div class="second-label">
+                    <input type="checkbox" checked>
+                    <div>
+                        <p>Label</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+                <div class="third-label">
+                    <input type="checkbox" checked>
+                    <div>
+                        <p>Label</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="range-value">
+                <div class="value-details">
+                    <p>Value:</p>
+                    <span id="rangeValue">50</span>
+                </div>
+                <input type="range" id="myRange" name="volume" min="0" max="100" step="5" value="50">
+            </div>
+        </left-content>
+        <right-content>
+
+        </right-content>
+    </main-content>
+    <main-footer>
+        <footer>
+            <div class="social-links">
+                <h2>SOCIAL LINKS</h2>
+                <a href="">Instagram</a>
+                <a href="">TikTok</a>
+                <a href="">Facebook</a>
+            </div>
+            <div class="quick-links">
+                <h2>QUICK LINKS</h2>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Track your order</a>
+            </div>
+            <div class="legal-links">
+                <h2>LEGAL</h2>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Cookies</a>
+            </div>
+            <div class="my-account">
+                <h2>My Account</h2>
+                <a href="">Profile</a>
+                <a href="">Wish List</a>
+                <a href="">Order History</a>
+            </div>
+        </footer>
+        <div class="about-us">
+            <img src="../images/socialIcons/book.png" alt="" class="first-logo-new">
+            <p>Our goal is to provide you with the best books to read. We have a 
+                wide range of books from different genres. We intend to build a 
+                digital library of Internet sites and others cultural artifacts in 
+                digital form.
+            </p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Teka Library. All rights reserved.</p>
+        </div>
+        <img src="../images/socialIcons/reading-book.png" alt="" class="reading-book">
+    </main-footer>
+    <script>
+        const range = document.getElementById('myRange');
+        const rangeValue = document.getElementById('rangeValue');
+        
+        range.addEventListener('input', function() {
+          rangeValue.textContent = this.value;
+        });
+      </script>
+</body>
+</html>

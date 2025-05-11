@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 233, 233);
+}
+book-main-content{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px 50px;
+}
+.book-image img{
+    background-size: cover;
+    width: 202px;
+    height: 430px;
+    position: sticky  ;
+    top: 42px;
+    left: 58px; 
+
+    transform: matrix3d(
+        1, -0.02, 0, -0.00058,
+        0, 0.99, 0, 0,
+        0, 0, 1, 0,
+        0, 0, 0, 1
+    );
+    transform-origin: left center;
+}
+
+.book-image{
+    position: relative;
+    background-image: url(../images/bookCover.png);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    clip-path: polygon(
+    15% 9%,
+    96% 0,  
+    96% 100%,
+    15% 94% 
+  );
+    overflow: hidden;
+}
+
+.book-details{
+    width: 500px;
+    height: 500px;
+    padding: 0 10px;
+}
+
+.book-details h1{
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.book-details .loan{
+    font-size: 12px;
+    color: rgb(169, 170, 170);
+}
+
+.book-details .quantity{
+    background-color: rgb(183 224 172);
+    width: 50px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+}
+
+.price p{
+    margin: 0;
+}
+.price span{
+    font-size: 30px;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.loan-button,
+.purchase-button{
+    width:50%;
+    padding: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.loan-button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.book-details .description{
+    width: 100%;
+    height: 33%;
+    margin-bottom: 0;
+}
+
+
+/*REVIEW CONTENT*/
+review-content{
+    display: block;
+    gap: 20px;
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+review-content h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+first-review, second-review, third-review{
+    border: 1px solid rgb(143, 140, 140);
+    padding: 20px;
+    width: 300px;
+    display: block;
+    border-radius: 5px;
+}
+
+star-review{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+review-details{
+    display: block;
+    margin-bottom: 20px;
+}
+
+review-details h2, review-details p{
+    margin: 0;
+}
+
+review-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+review-user{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+review-user .user-name{
+    display: block;
+}
+
+review-user .user-name p{
+    margin: 0;
+}
+
+review-user .user-name .date{
+    color: rgb(179, 175, 175);
+    font-weight: lighter;
+}
+
+
+/*NEWSLETTER*/
+newsletter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.newsletter-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.newsletter-text h3{
+    margin: 0;
+}
+
+.newsletter-text p{
+    margin: 0;
+    color: rgb(176, 177, 179);
+    font-weight: lighter;
+}
+
+.newsletter-submit{
+    display: inline;
+}
+
+.newsletter-submit #text{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+.newsletter-submit button{
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}

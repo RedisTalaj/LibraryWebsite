@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 233, 233);
+}
+
+main-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+
+left-content{
+    display: block;
+    width: 240px;
+    height: 678px;
+    border: 1px solid black;
+}
+
+right-content{
+    display: block;
+    width: 832px;
+    height: 806px;
+    border: 1px solid black;
+}

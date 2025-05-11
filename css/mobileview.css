@@ -1,0 +1,230 @@
+/*NAVBAR*/
+
+@media(max-width:768px){
+    navbar{
+        display: block;
+        justify-items: center;
+        font-size: 10px;
+        padding-bottom: 7px;
+    }
+
+    navbar .links{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    navbar .links a{
+        text-align: center;
+    }
+
+    navbar .log button{
+        font-size: 10px;
+    }
+
+    navbar .log{
+        width: 100%;
+        justify-content: center;
+
+    }
+}
+
+
+/*FIRST CONTENT*/
+@media (max-width: 768px){
+    first-content{
+        height: 300px;
+    }
+    .content-container h2{
+        font-size: 60px;
+    }
+
+    .content-container p {
+        font-size: 20px;
+    }
+}
+
+
+/*THIRD CONTENT*/
+@media (max-width: 768px){
+    third-content{
+        padding: 20px 20px;
+    }
+    third-content .header {
+        padding-bottom: 10px;
+    }
+    third-content .header h2{
+        font-size: 20px;
+    }
+    third-content .header p{
+        font-size: 15px;
+    }
+    .pointers{
+        min-width: 10px;
+    }
+    third-content img{
+        height: 120px;
+        width: 70px;
+    }
+    .containerThird h2{
+        font-size: 14px;
+    }
+    .containerThird p{
+        font-size: 10px;
+    }
+    .containerThird button{
+        font-size: 10px;
+        width: 45px;
+        height: 20px;
+    }
+}
+
+
+/*SECOND CONTENT*/
+@media (max-width: 768px){
+    .second-content{
+        padding: 40px 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .SecImg{
+        width: 382px;
+        height: 220px;
+    }
+}
+
+/*BOOK CATEGORIES*/
+@media (max-width: 768px){
+    first-category{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    book-categories first-category h2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .fantasy-content img{
+        height: 70px;
+        width: 30px;
+    }
+    .fantasy-content #F, #S, #T, #FO, #FI{
+        width: 100px;
+        height: 0;
+    }
+    .fantasy-content button{
+        font-size: 5px;
+        height: 10px;
+        width: 30px;
+    }
+    .fantasy-content p{
+        font-size: 10px;
+    }
+    .content-pointers .scroll-arrow{
+        width: 17px;
+        border-radius: 0;
+        height: 121px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 248, 255);
+    }
+    .content-pointers{
+        background-color: rgb(240, 248, 255,0);
+        margin-top: 0;
+    }
+    .main-fantasy-content{
+        margin: 0;
+    }
+}
+
+
+/*SUBSCRIPTIONS*/
+@media (max-width: 768px){
+    subscription{
+        padding: 0;
+    }
+    .subscription-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+    .subscription-name{
+        padding: 10px 0;
+    }
+    .subscription-name button{
+        font-size: 12px;
+    }
+    .basic, .premium{
+        width: 180px;
+    }
+    .sub-title .title{
+        font-size: 12px;
+    }
+    .sub-price-tag h2{
+        font-size: 20px;
+    }
+    .sub-price-tag h3 {
+        margin-top:5px;
+        font-size: 10px;
+    }
+    .sub-price p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    ul{
+        font-size: 12px;
+    }
+    .basic button, .premium button{
+        font-size: 12px;
+        width: 150px;
+        height: 20px;
+    }
+}
+
+
+/*FOOTER*/
+
+@media (max-width: 768px) {
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+        
+    }
+
+    main-footer .first-logo-new{
+        width: 50px;
+        height: 50px;
+        bottom: 200px;
+    }
+
+    main-footer .reading-book{
+        width: 50px;
+        height: 50px;
+        padding-top: 50px;
+        left: 80%;
+    }
+
+    .quick-links h2, 
+    .legal-links h2, 
+    .my-account h2, 
+    .social-links h2{
+        font-size: 13px;
+    }
+
+    .quick-links a, 
+    .legal-links a, 
+    .my-account a, 
+    .social-links a{
+        font-size: 10px;
+    }
+
+    .about-us p,
+    .copyright p{
+        font-size: 10px;
+    }
+}
